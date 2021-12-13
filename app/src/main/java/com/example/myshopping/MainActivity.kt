@@ -7,7 +7,6 @@ import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
     private lateinit var shoppingBagImageButton: ImageButton
-//    private lateinit var shoppingBagImageButton: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
