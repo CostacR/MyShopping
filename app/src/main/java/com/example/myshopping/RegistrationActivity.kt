@@ -63,6 +63,7 @@ class RegistrationActivity : AppCompatActivity() {
                 if (char.toString() == "@"){
                     println(char)
                     return true
+
                 }
             }
 
@@ -70,11 +71,7 @@ class RegistrationActivity : AppCompatActivity() {
         }
 
         fun comparePassword(text1: String, text2: String): Boolean{
-//            var tex1 = "***"
-//            var tex2 = "***"
 
-//                tex1 = text1.toString()
-//                tex2 = text2.toString()
                     if (text1 == text2) {
                         println("passwords equals")
                         return true
